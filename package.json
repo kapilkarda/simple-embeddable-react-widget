@@ -25,8 +25,14 @@
     "webpack-dev-server": "^3.8.2"
   },
   "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-slick": "^0.27.11",
+    "react-star-rating-component": "^1.4.1",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.14.1"
   },
   "babel": {
     "presets": [

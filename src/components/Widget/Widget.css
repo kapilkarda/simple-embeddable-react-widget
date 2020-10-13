@@ -1,4 +1,105 @@
-.widget-container {
-    border: 2px solid green;
-    padding: 15px;
+.loader-spinner { position: absolute;top:0;left: 0;background: #fafafa;width: 100%;min-height: 100%;z-index: 1000; display: flex;}
+.preloader-init { position: absolute; top: calc(50% - 65px); left: calc(50% - 65px) }
+.App {
+    position: relative;
+    padding-bottom: 40px;
+}
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.view-group .thumbnail
+{
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.view-group .img-event img {
+    width: 100%;
+    min-height: 650px;
+}
+.slider-main-box {
+    padding: 10px;
+}
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+}
+.slick-next {
+    right: 3% !important;
+    z-index: 1;
+}
+.slider-main-box .card-body {
+    padding: 10px;
+    height: 60px;
+}
+.slider-main-box .card-body .card-title{
+    margin-bottom: 0px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slider-main-box .card-body .card-caption{
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #999999;
+}
+.list-view-grid .card-body {
+    padding: 10px;
+}
+.list-view-grid .card-body .card-title{
+    margin-bottom: 0px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list-view-grid .card-body .card-caption{
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #999999;
+}
+.double-slider video {
+    height: 350px;
+}
+@media only screen  and (max-width : 756px) {
+    .double-slider video {
+        height: 350px !important;
+    }
+}
+.error-msg {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.video-react .video-react-big-play-button {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.no-gutters .slick-slide:first-child { opacity: 1 !important; }
+.dv-star-rating label {
+    margin-bottom: 0 !important;
+}
+.dv-star-rating {
+    margin-top: -5px;
 }
